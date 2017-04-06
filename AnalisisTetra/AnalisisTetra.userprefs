@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{541ED90A-80A6-4794-B2DF-C6F899A4A656}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AnalisisTetra/Program.cs">
+    <Files>
+      <File FileName="AnalisisTetra/Program.cs" Line="18" Column="3" />
+      <File FileName="AnalisisTetra/Combinatorics/Permutations.cs" Line="440" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="146" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="158" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="181" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="192" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="203" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="214" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="227" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="134" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="170" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="137" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="148" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="160" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="172" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="183" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="194" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="205" column="1" />
+      <Breakpoint enabled="false" file="/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/Program.cs" relfile="AnalisisTetra/Program.cs" line="216" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AnalisisTetra PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

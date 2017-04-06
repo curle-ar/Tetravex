@@ -1,0 +1,4 @@
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/bin/Debug/AnalisisTetra.exe
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/bin/Debug/AnalisisTetra.exe.mdb
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe.mdb

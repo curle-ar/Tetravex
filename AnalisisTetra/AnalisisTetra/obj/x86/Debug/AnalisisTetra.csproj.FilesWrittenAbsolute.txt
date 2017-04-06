@@ -1,0 +1,10 @@
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/bin/Debug/AnalisisTetra.exe.mdb
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/bin/Debug/AnalisisTetra.exe
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe
+/Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe.mdb
+/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/bin/Debug/AnalisisTetra.exe.mdb
+/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/bin/Debug/AnalisisTetra.exe
+/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe
+/Users/cristiamacuna/Desktop/TetravexAA/Tetravex/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe.mdb
