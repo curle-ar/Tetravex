@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Collections;
 using Facet.Combinatorics;
 using System.Linq;
+using System.Threading;
+using System.Diagnostics;
+
 namespace AnalisisTetra
 {
-
-
 	public static class Ex
 	{
 		public static IEnumerable<IEnumerable<T>> DifferentCombinations<T>(this IEnumerable<T> elements, int k)
@@ -16,30 +17,41 @@ namespace AnalisisTetra
 				elements.Skip(i + 1).DifferentCombinations(k - 1).Select(c => (new[] { e }).Concat(c)));
 		}
 	}
+
 	class MainClass
 	{
 		public static void Main(string[] args)
 		{
+            Singleton gController = Singleton.Instance;
 
-			Console.WriteLine("                                                      TETRAVEX");
-			Console.WriteLine("                                           Cristiam Acuna & Andres Garcia");
-			Console.WriteLine("                                                       MENU");
-			Console.WriteLine("                                                 1- Brute Force ");
-			Console.WriteLine("                                                 2- Discard");
-			Console.WriteLine("                                                 3- Selection");
-			Console.WriteLine("SOLUTION");
+            Console.WriteLine("\t\t\tTETRAVEX");
+            Console.WriteLine("\t\tCristiam Acuna & Andres Garcia");
+            Console.WriteLine("\t\t\tMENU");
+            Console.WriteLine("\t\t1- Brute Force ");
+            Console.WriteLine("\t\t2- Discard");
+            Console.WriteLine("\t\t3- Selection");
+            Console.WriteLine("SOLUTION\n");
 
-			Tile[,] tiles = generateTiles(4);
+            Tile[,] tiles = shuffle(generateTiles(5));
 
-		
-			Console.WriteLine("                                                      TETRAVEX");
-			Console.WriteLine("                                           Cristiam Acuna & Andres Garcia");
+            Console.WriteLine("\t\t\tTETRAVEX");
+			Console.WriteLine("\t\tCristiam Acuna & Andres Garcia");
 			Console.WriteLine("Random Shuffled Solution");
-			//shuffle();
 
 			bruteForce(shuffle(tiles));
 
-		}
+            Stopwatch stopWatch = new Stopwatch();
+            stopWatch.Start();
+
+            gController.initBacktraking(tiles);
+
+            stopWatch.Stop();
+            Console.WriteLine(stopWatch.ElapsedMilliseconds);
+
+            gController.printTempMatrixToSolve();
+
+            Console.ReadKey();
+        }
 
 		public static Tile[,] bruteForce(Tile[,] matrix)
 		{
@@ -226,6 +238,7 @@ namespace AnalisisTetra
 			}
 			return true;
 		}
+
 		public static Tile[,] shuffle(Tile[,] originalMatrix)
 		{
 			int size = Convert.ToInt32(Math.Sqrt(originalMatrix.Length));
@@ -301,7 +314,6 @@ namespace AnalisisTetra
 					}
 					else
 					{
-
 						int top;
 
 						int left;
@@ -333,16 +345,10 @@ namespace AnalisisTetra
 
 					}
 					Console.WriteLine(" ");
-
-
 				}
-
 			}
-
 			return matrix;
-
 		}
-
 
 		public static Tile findTile(int top, int right, int bottom, int left)
 		{
@@ -368,16 +374,13 @@ namespace AnalisisTetra
 			//Under top to right (middle lines)
 			if (top != 0 && right == 0 && bottom == 0 && left != 0)
 			{
-
 				tTop = top;
 				tRight = rand.Next(1, 10);
 				tBottom = rand.Next(1, 10);
 				tLeft = left;
 
-
 				tile = new Tile(tTop, tRight, tBottom, tLeft);
 				// Console.WriteLine(tile.top + " " + tile.right + " " + tile.bottom + " " + tile.left);
-
 				//  Console.WriteLine("Abajo");
 			}
 			//Bottom Left corner
@@ -392,16 +395,8 @@ namespace AnalisisTetra
 			}
 
 			//Tile's sides are assigned
-
-
 			return tile;
-
 		}
-
-
-
-		
-	
+        
 	}
-
 }

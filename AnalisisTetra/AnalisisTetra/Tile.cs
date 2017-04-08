@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Linq;
+
 namespace AnalisisTetra
 {
 	public class Tile
 	{
-
-
 		public int top;
 		public int right;
 		public int bottom;
@@ -18,9 +17,8 @@ namespace AnalisisTetra
 			this.right = right;
 			this.bottom = bottom;
 			this.left = left;
-
-
 		}
+
 		public Tile()
 		{
 		}
