@@ -2,3 +2,8 @@
 /Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/bin/Debug/AnalisisTetra.exe.mdb
 /Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe
 /Users/cristiamacuna/Projects/AnalisisTetra/AnalisisTetra/obj/x86/Debug/AnalisisTetra.exe.mdb
+C:\Users\andyg\OneDrive\Documents\GitHub\Tetravex\AnalisisTetra\AnalisisTetra\bin\Debug\AnalisisTetra.exe
+C:\Users\andyg\OneDrive\Documents\GitHub\Tetravex\AnalisisTetra\AnalisisTetra\bin\Debug\AnalisisTetra.pdb
+C:\Users\andyg\OneDrive\Documents\GitHub\Tetravex\AnalisisTetra\AnalisisTetra\obj\x86\Debug\AnalisisTetra.csprojResolveAssemblyReference.cache
+C:\Users\andyg\OneDrive\Documents\GitHub\Tetravex\AnalisisTetra\AnalisisTetra\obj\x86\Debug\AnalisisTetra.exe
+C:\Users\andyg\OneDrive\Documents\GitHub\Tetravex\AnalisisTetra\AnalisisTetra\obj\x86\Debug\AnalisisTetra.pdb

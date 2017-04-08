@@ -167,11 +167,6 @@ namespace AnalisisTetra
                 return temp;
             }
 
-            if (i == n - 1 && j == n - 1)//bottom right Tile
-            {
-                // Here maybe the algortihm doesnt need to do a shit!
-            }
-
             return temp;
         }
 
@@ -184,7 +179,7 @@ namespace AnalisisTetra
 
             foreach (node tempN in LNV)
             {
-                Console.WriteLine("Hola ");
+                Console.WriteLine("\nHola ");
                 tempMatrixToSolve[0, 0] = tempN;
 
                 List<node> LNVWithOutTemp = LNV.ToList();
@@ -207,6 +202,8 @@ namespace AnalisisTetra
 
             foreach (node tempN in objectiveNode.possibleMoves)
             {
+                Console.Write(actualLevelTree);
+
                 node compIsFit = nodeFit(tempN, actualLevelTree, n);
 
                 if (compIsFit.isFit)
